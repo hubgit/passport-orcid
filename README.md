@@ -24,6 +24,7 @@ The ORCID authentication strategy authenticates users using a ORCID account and 
 var OrcidStrategy = require('passport-orcid').Strategy;
 
 passport.use(new OrcidStrategy({
+    sandbox: process.env.NODE_ENV !== 'production', // use the sandbox for non-production environments
     clientID: ORCID_CLIENT_ID,
     clientSecret: ORCID_CLIENT_SECRET,
     callbackURL: "http://www.example.com/auth/orcid/callback"
