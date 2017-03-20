@@ -1,10 +1,11 @@
 {
   "name": "passport-orcid",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Passport strategy for authentication with ORCID (orcid.org)",
   "main": "lib/index.js",
   "author": "Collaborative Knowledge Foundation",
   "license": "MIT",
+  "homepage": "https://gitlab.coko.foundation/pubsweet/passport-orcid",
   "repository": {
     "type": "git",
     "url": "https://gitlab.coko.foundation/pubsweet/passport-orcid.git"
