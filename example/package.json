@@ -1,0 +1,17 @@
+{
+  "name": "passport-orcid-example",
+  "version": "0.0.1",
+  "main": "index.js",
+  "license": "MIT",
+  "eslintConfig": {
+    "extends": "standard"
+  },
+  "dependencies": {
+    "express": "^4.15.2",
+    "express-session": "^1.15.1",
+    "passport": "^0.3.2"
+  },
+  "devDependencies": {
+    "standard": "^9.0.2"
+  }
+}
