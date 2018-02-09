@@ -2,14 +2,13 @@
   "name": "passport-orcid",
   "version": "0.0.2",
   "description": "Passport strategy for authentication with ORCID (orcid.org)",
-  "main": "lib/index.js",
+  "main": "lib",
+  "files": [
+    "lib"
+  ],
   "author": "Collaborative Knowledge Foundation",
   "license": "MIT",
-  "homepage": "https://gitlab.coko.foundation/pubsweet/passport-orcid",
-  "repository": {
-    "type": "git",
-    "url": "https://gitlab.coko.foundation/pubsweet/passport-orcid.git"
-  },
+  "repository": "hubgit/passport-orcid",
   "eslintConfig": {
     "extends": "standard",
     "env": {
@@ -20,6 +19,6 @@
     "passport-oauth2": "^1.4.0"
   },
   "devDependencies": {
-    "standard": "^9.0.2"
+    "standard": "^10.0.3"
   }
 }
