@@ -16,9 +16,9 @@
     }
   },
   "dependencies": {
-    "passport-oauth2": "^1.4.0"
+    "passport-oauth2": "^1.5.0"
   },
   "devDependencies": {
-    "standard": "^10.0.3"
+    "standard": "^14.0.2"
   }
 }
