@@ -1,6 +1,6 @@
 {
   "name": "passport-orcid",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Passport strategy for authentication with ORCID (orcid.org)",
   "main": "lib",
   "files": [
