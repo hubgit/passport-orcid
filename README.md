@@ -31,7 +31,7 @@ passport.use(new OrcidStrategy({
   },
   function(accessToken, refreshToken, params, profile, done) {
     // NOTE: `profile` is empty, use `params` instead
-    User.findOrCreate({ orcid: params.id }, function (err, user) {
+    User.findOrCreate({ orcid: params.orcid }, function (err, user) {
       return done(err, user);
     });
   }
@@ -48,7 +48,7 @@ For example, as route middleware in an [Express](http://expressjs.com/) applicat
 app.get('/auth/orcid',
   passport.authenticate('orcid'));
 
-app.get('/auth/orcid/callback', 
+app.get('/auth/orcid/callback',
   passport.authenticate('orcid', { failureRedirect: '/login' }),
   function(req, res) {
     // Successful authentication, redirect home.
